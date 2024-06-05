@@ -1,0 +1,158 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+section{
+    padding: 50px 0;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+
+}
+.top {
+    justify-content: center;
+    display: flex;
+    
+
+    h2{
+        font-size: 40px;
+    }
+
+}
+
+.top a{
+    color: var(--system-gray-01-light, #8E8E93);
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 140% */
+}
+.top a:hover {
+border-bottom: 1px solid black;
+}
+
+h2{
+    color: #000;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; /* 140% */
+margin-bottom: 35px;
+}
+.wrap {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+}
+.card {
+    border-radius: 16px;
+border: 1.5px solid #E6E6E6;
+background: #FFF;
+width:100%;
+max-width: 300px;
+
+}
+.box {
+    padding: 15px 20px;
+}
+
+h3{
+    color: #000;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; /* 140% */
+margin-bottom: 50px;
+}
+.price {
+    display: flex;
+    justify-content:space-between ;
+    align-items: end;
+    flex-wrap: wrap;
+}
+.name {
+    justify-content: space-between;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.name p{
+    color: var(--system-gray-01-light, #8E8E93);
+white-space: nowrap;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 100% */
+
+}
+.icon {
+}
+.card-img{
+    width: 100%;
+    transition: 0.3s;
+
+
+}
+
+.bid p{
+    color: var(--system-gray-01-light, #8E8E93);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+padding-bottom: 4px;
+}
+.bid{
+    text-align: right;
+}
+
+
+
+.card-link {
+    width: 100%;
+    border: 1px solid black;
+    padding: 150px;
+    text-align: center;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.card-link-1 {
+    background-image: url(https://steamuserimages-a.akamaihd.net/ugc/2065507029337442255/735976644E0B0B1E0DEF487A3A537483D52DABEC/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true);
+    
+}
+
+.card-link-2 {
+    background-image: url(https://steamuserimages-a.akamaihd.net/ugc/845970770098275736/30881F251A552D91DA5F3A2C6728395DBD872353/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false);
+}
+.card-link-3 {
+    background-image: url(https://uploads-ssl.webflow.com/5f4be2b8d332fc0ac23f3c55/5f4be2b8d332fc60bc3f3c6c_Vans_LogoGlitch_Advert.gif);
+}
+
+.myButton {
+    background-color: #2b2b2b;
+    border-radius: 7px;
+    border: 1px solid #000000;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 18px;
+    padding: 9px 32px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #031700;
+}
+
+.menu {
+     display: flex;
+     justify-content: space-between;
+     max-width: 500px;
+     margin: 0 auto;
+     padding-top: 50px;
+}
